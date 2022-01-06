@@ -15,7 +15,7 @@ class PodCastsTests(TestCase):
         )
     
     def test_episode_content(self):
-        self.assertEqual(self.episode.description, 'Look Mom, I made it')
+        self.assertEqual(self.episode.description, 'Look Mom, I made it!')
         self.assertEqual(self.episode.link, 'https://myawesomeshow.com')
         self.assertEqual(
             self.episode.guid, 'de194720-7b4c-49e2-a05f-432436d3fetr'
