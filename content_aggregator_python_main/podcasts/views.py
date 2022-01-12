@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 
-from .models import Episode
+from podcasts.models import Episode
 
 class HomePageView(ListView):
     template_name = "homepage.html"
