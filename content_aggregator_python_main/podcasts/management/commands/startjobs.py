@@ -3,7 +3,7 @@ from django.core.management.base import BaseCommand
 import feedparser
 from dateutil import parser
 
-from podcasts.models import Episode
+from .models import Episode
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
